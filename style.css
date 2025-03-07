@@ -6,6 +6,14 @@ body {
     background-color: orange;
 }
 
+.main-content {
+    background-color: #f8f9fa; /* Greyish white */
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+}
+
 /* Set the content div to greyish white */
 .content {
     background-color: #f0f0f0;
