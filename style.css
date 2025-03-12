@@ -12,3 +12,20 @@ body {
     height: 80%;
     border-radius: 5px;
 }
+.smaller-content {
+    background-color: #ffffff; /* White */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .smaller-content {
+        padding: 5px;
+    }
+}
